@@ -1,4 +1,21 @@
+## 1. 2024-03-24
+
+- 去中心化、开放性和提高消费者实用性的基本理念构成了Web3.0的基础
+- 什么是区块链？
+  - 计算机网络节点之间共享的去中心化数据库。
+  - 可以轻松收集、集成和共享来自众多来源的交易数据。
+  - 能确保数据完整性，区块链使用单一事实来源来消除数据重复并提高安全性 。
+  - 可以防止欺诈和数据篡改，因为未经各方节点许可，数据无法更改。
+- 区块链的工作原理是什么？
+  - 记录交易
+  - 达成共识
+  - 对区块链进行链接
+  - 共享分类账
+-  构建区块链学习的知识体系合集，汇聚各种区块链资源(https://github.com/Eternaldeath/BlockchainHome)
+- web3-react(https://github.com/Uniswap/web3-react) 。
+
 ## 2. 2024-03-31
+
 -  Web3、全栈 Solidity、智能合约和区块链-初学者到专家终极课程JavaScript版(https://github.com/smartcontractkit/full-blockchain-solidity-course-js)
    - 视频链接：https://www.youtube.com/watch?v=gyMwXuJrbJQ
 -  web3指南(https://learnblockchain.cn/article/4478)
@@ -48,18 +65,12 @@
       const transactionResponse = contract.someFunction()
 
     - 5.中间的两行改变了，现在从window.ethereum获得钱包，我们的签名者（signer）来自提供者（即metamask）。
-## 1. 2024-03-24
-
-- 去中心化、开放性和提高消费者实用性的基本理念构成了Web3.0的基础
-- 什么是区块链？
-  - 计算机网络节点之间共享的去中心化数据库。
-  - 可以轻松收集、集成和共享来自众多来源的交易数据。
-  - 能确保数据完整性，区块链使用单一事实来源来消除数据重复并提高安全性 。
-  - 可以防止欺诈和数据篡改，因为未经各方节点许可，数据无法更改。
-- 区块链的工作原理是什么？
-  - 记录交易
-  - 达成共识
-  - 对区块链进行链接
-  - 共享分类账
--  构建区块链学习的知识体系合集，汇聚各种区块链资源(https://github.com/Eternaldeath/BlockchainHome)
-- web3-react(https://github.com/Uniswap/web3-react) 。
+  
+## 3. 2024-04-06
+- 1.通过NestJS项目来熟悉Web3
+   - 1.1.使用本地Hardhat区块链和合约
+   - 1.2.使用本地区块链设置MetaMask
+   - 1.3.使用Ethers工具与基于EVM的区块链应用程序连接到钱包(Walletconnect)
+   - 1.4.了解Web3Modal、区块链等的一些前沿的前端使用，能查看Scaffold-ETH。
+   - 1.5.了解Moralis(react-moralis)，是第一个包含上下文管理组件的软件包，实现组件之间轻松共享状态
+   - 1.6.了解web3-react。这是被Uniswap、Aave和Compound等顶级项目最广泛使用的包之一
